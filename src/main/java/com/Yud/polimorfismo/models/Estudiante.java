@@ -1,11 +1,14 @@
-package com.adr.polimorfismo.models;
+package com.Yud.polimorfismo.models;
 
 import java.util.ArrayList;
+import com.Yud.polimorfismo.models.UP;
+import com.Yud.polimorfismo.models.Tecnologico;
+import com.Yud.polimorfismo.models.Unach;
 
 public class Estudiante {
-    private IAlumnos estudiantesBase1 = new UP();
-    private IAlumnos estudiantesBase2 = new Tecnologico();
-    private IAlumnos estudiantesBase3 = new Unach();
+    private UP estudiantesBase1 = new UP();
+    private Tecnologico estudiantesBase2 = new Tecnologico();
+    private Unach estudiantesBase3 = new Unach();
 
     public boolean addStudent(Etudiante newStudent) {
         boolean bandera;

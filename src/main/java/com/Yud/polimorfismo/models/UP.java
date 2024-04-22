@@ -1,6 +1,7 @@
-package com.adr.polimorfismo.models;
+package com.Yud.polimorfismo.models;
 
 import java.util.ArrayList;
+import com.Yud.polimorfismo.models.Etudiante;
 
 public class UP implements IAlumnos {
     private ArrayList<Etudiante> estudiantes = new ArrayList<>();

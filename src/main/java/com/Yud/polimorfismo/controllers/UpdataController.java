@@ -1,7 +1,7 @@
-package com.adr.polimorfismo.controllers;
+package com.Yud.polimorfismo.controllers;
 
-import com.adr.polimorfismo.App;
-import com.adr.polimorfismo.models.Etudiante;
+import com.Yud.polimorfismo.App;
+import com.Yud.polimorfismo.models.Etudiante;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;

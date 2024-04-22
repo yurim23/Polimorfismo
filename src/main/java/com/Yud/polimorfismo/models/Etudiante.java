@@ -1,4 +1,4 @@
-package com.adr.polimorfismo.models;
+package com.Yud.polimorfismo.models;
 
 public class Etudiante {
     private int matricula;

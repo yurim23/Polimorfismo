@@ -4,9 +4,9 @@ module com.adr.polimorfismo {
 
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.adr.polimorfismo.models to javafx.base;
-    opens com.adr.polimorfismo to javafx.fxml;
-    exports com.adr.polimorfismo;
-    exports com.adr.polimorfismo.controllers;
-    opens com.adr.polimorfismo.controllers to javafx.fxml;
+    opens com.Yud.polimorfismo.models to javafx.base;
+    opens com.Yud.polimorfismo to javafx.fxml;
+    exports com.Yud.polimorfismo.models;
+    exports com.Yud.polimorfismo.controllers;
+    opens com.Yud.polimorfismo.controllers to javafx.fxml;
 }
